@@ -12,80 +12,9 @@
 		7805009A26A581C500DE730B /* storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7805001B26A581C000DE730B /* storage.swift */; };
 		780500A126A581C500DE730B /* ESPProvision.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7805002326A581C000DE730B /* ESPProvision.swift */; };
 		780500A226A581C500DE730B /* GatewayCommissioningManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7805002426A581C100DE730B /* GatewayCommissioningManager.swift */; };
-		780500AA26A581C500DE730B /* ESPTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 7805003026A581C200DE730B /* ESPTools.m */; };
-		780500AB26A581C500DE730B /* ESP_NetUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 7805003126A581C200DE730B /* ESP_NetUtil.m */; };
-		780500AC26A581C500DE730B /* ESP_ByteUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 7805003226A581C200DE730B /* ESP_ByteUtil.m */; };
-		780500AD26A581C500DE730B /* ESP_WifiUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 7805003326A581C200DE730B /* ESP_WifiUtil.m */; };
-		780500AE26A581C500DE730B /* ESP_CRC8.m in Sources */ = {isa = PBXBuildFile; fileRef = 7805003426A581C200DE730B /* ESP_CRC8.m */; };
-		780500AF26A581C500DE730B /* ESPVersionMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 7805003526A581C200DE730B /* ESPVersionMacro.h */; };
-		780500B026A581C500DE730B /* ESPAES.h in Headers */ = {isa = PBXBuildFile; fileRef = 7805003626A581C200DE730B /* ESPAES.h */; };
-		780500B126A581C500DE730B /* ESP_NetUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 7805003726A581C200DE730B /* ESP_NetUtil.h */; };
-		780500B226A581C500DE730B /* ESP_ByteUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 7805003826A581C200DE730B /* ESP_ByteUtil.h */; };
-		780500B326A581C500DE730B /* ESPTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 7805003926A581C200DE730B /* ESPTools.h */; };
-		780500B426A581C500DE730B /* ESP_CRC8.h in Headers */ = {isa = PBXBuildFile; fileRef = 7805003A26A581C200DE730B /* ESP_CRC8.h */; };
-		780500B526A581C500DE730B /* ESP_WifiUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 7805003B26A581C200DE730B /* ESP_WifiUtil.h */; };
-		780500B626A581C500DE730B /* ESPAES.m in Sources */ = {isa = PBXBuildFile; fileRef = 7805003C26A581C200DE730B /* ESPAES.m */; };
-		780500B726A581C500DE730B /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 7805003E26A581C200DE730B /* AFSecurityPolicy.h */; };
-		780500B826A581C500DE730B /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7805003F26A581C200DE730B /* AFNetworkReachabilityManager.h */; };
-		780500B926A581C500DE730B /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7805004026A581C200DE730B /* AFURLSessionManager.h */; };
-		780500BA26A581C500DE730B /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 7805004126A581C200DE730B /* AFURLRequestSerialization.h */; };
-		780500BB26A581C500DE730B /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 7805004226A581C200DE730B /* AFURLResponseSerialization.m */; };
-		780500BC26A581C500DE730B /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7805004326A581C200DE730B /* AFHTTPSessionManager.m */; };
-		780500BD26A581C500DE730B /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 7805004426A581C200DE730B /* AFURLResponseSerialization.h */; };
-		780500BE26A581C500DE730B /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7805004526A581C200DE730B /* AFURLSessionManager.m */; };
-		780500BF26A581C500DE730B /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 7805004626A581C200DE730B /* AFURLRequestSerialization.m */; };
-		780500C026A581C500DE730B /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 7805004726A581C200DE730B /* AFNetworking.h */; };
-		780500C126A581C500DE730B /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7805004826A581C200DE730B /* AFNetworkReachabilityManager.m */; };
-		780500C226A581C500DE730B /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7805004926A581C200DE730B /* AFSecurityPolicy.m */; };
-		780500C326A581C500DE730B /* AFCompatibilityMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 7805004A26A581C200DE730B /* AFCompatibilityMacros.h */; };
-		780500C426A581C500DE730B /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7805004B26A581C200DE730B /* AFHTTPSessionManager.h */; };
-		780500C526A581C500DE730B /* Documentation.html in Resources */ = {isa = PBXBuildFile; fileRef = 7805004E26A581C200DE730B /* Documentation.html */; };
-		780500C626A581C500DE730B /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 7805004F26A581C200DE730B /* GCDAsyncUdpSocket.m */; };
-		780500C726A581C500DE730B /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 7805005026A581C200DE730B /* GCDAsyncSocket.m */; };
-		780500C826A581C500DE730B /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 7805005126A581C200DE730B /* GCDAsyncUdpSocket.h */; };
-		780500C926A581C500DE730B /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 7805005226A581C200DE730B /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		780500CA26A581C500DE730B /* CocoaAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 7805005326A581C200DE730B /* CocoaAsyncSocket.h */; };
-		780500CB26A581C500DE730B /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 7805005626A581C200DE730B /* DDTTYLogger.m */; };
-		780500CC26A581C500DE730B /* DDLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 7805005726A581C200DE730B /* DDLog.h */; };
-		780500CD26A581C500DE730B /* DDAbstractDatabaseLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 7805005826A581C200DE730B /* DDAbstractDatabaseLogger.h */; };
-		780500CE26A581C500DE730B /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 7805005926A581C200DE730B /* DDASLLogger.m */; };
-		780500CF26A581C500DE730B /* DDFileLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 7805005A26A581C200DE730B /* DDFileLogger.h */; };
-		780500D026A581C500DE730B /* DDContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7805005C26A581C200DE730B /* DDContextFilterLogFormatter.m */; };
-		780500D126A581C500DE730B /* DDDispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7805005D26A581C200DE730B /* DDDispatchQueueLogFormatter.m */; };
-		780500D226A581C500DE730B /* DDMultiFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 7805005E26A581C200DE730B /* DDMultiFormatter.h */; };
-		780500D326A581C500DE730B /* DDContextFilterLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 7805005F26A581C200DE730B /* DDContextFilterLogFormatter.h */; };
-		780500D426A581C500DE730B /* DDMultiFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7805006026A581C200DE730B /* DDMultiFormatter.m */; };
-		780500D526A581C500DE730B /* DDDispatchQueueLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 7805006126A581C200DE730B /* DDDispatchQueueLogFormatter.h */; };
-		780500D626A581C500DE730B /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7805006226A581C200DE730B /* README.txt */; };
-		780500D726A581C500DE730B /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 7805006326A581C200DE730B /* DDLog.m */; };
-		780500D826A581C500DE730B /* DDTTYLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 7805006426A581C200DE730B /* DDTTYLogger.h */; };
-		780500D926A581C500DE730B /* DDLog+LOGV.h in Headers */ = {isa = PBXBuildFile; fileRef = 7805006526A581C200DE730B /* DDLog+LOGV.h */; };
-		780500DA26A581C500DE730B /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 7805006626A581C200DE730B /* DDAbstractDatabaseLogger.m */; };
-		780500DB26A581C500DE730B /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 7805006726A581C200DE730B /* DDFileLogger.m */; };
-		780500DC26A581C500DE730B /* DDASLLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 7805006826A581C200DE730B /* DDASLLogger.h */; };
 		780500DD26A581C500DE730B /* ESPProvisionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7805006926A581C200DE730B /* ESPProvisionManager.swift */; };
 		780500DE26A581C500DE730B /* ESPSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7805006A26A581C300DE730B /* ESPSession.swift */; };
 		780500DF26A581C500DE730B /* ESPDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7805006B26A581C300DE730B /* ESPDevice.swift */; };
-		780500E026A581C500DE730B /* ESPUDPSocketClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 7805006E26A581C300DE730B /* ESPUDPSocketClient.h */; };
-		780500E126A581C500DE730B /* ESPUDPSocketServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7805006F26A581C300DE730B /* ESPUDPSocketServer.m */; };
-		780500E226A581C500DE730B /* ESPUDPSocketClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 7805007026A581C300DE730B /* ESPUDPSocketClient.m */; };
-		780500E326A581C500DE730B /* ESPUDPSocketServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 7805007126A581C300DE730B /* ESPUDPSocketServer.h */; };
-		780500E426A581C500DE730B /* ESPGuideCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7805007326A581C300DE730B /* ESPGuideCode.m */; };
-		780500E526A581C500DE730B /* ESPTouchGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7805007426A581C300DE730B /* ESPTouchGenerator.m */; };
-		780500E626A581C500DE730B /* ESPDataCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 7805007526A581C300DE730B /* ESPDataCode.h */; };
-		780500E726A581C500DE730B /* ESPDatumCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 7805007626A581C300DE730B /* ESPDatumCode.h */; };
-		780500E826A581C500DE730B /* ESPGuideCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 7805007726A581C300DE730B /* ESPGuideCode.h */; };
-		780500E926A581C500DE730B /* ESPDataCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7805007826A581C300DE730B /* ESPDataCode.m */; };
-		780500EA26A581C500DE730B /* ESPTouchGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 7805007926A581C300DE730B /* ESPTouchGenerator.h */; };
-		780500EB26A581C500DE730B /* ESPDatumCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7805007A26A581C300DE730B /* ESPDatumCode.m */; };
-		780500EC26A581C500DE730B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7805007B26A581C300DE730B /* README.md */; };
-		780500ED26A581C500DE730B /* ESPTouchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 7805007D26A581C300DE730B /* ESPTouchResult.m */; };
-		780500EE26A581C500DE730B /* ESPTouchTaskParameter.h in Headers */ = {isa = PBXBuildFile; fileRef = 7805007E26A581C300DE730B /* ESPTouchTaskParameter.h */; };
-		780500EF26A581C500DE730B /* ESPTouchTaskParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7805007F26A581C300DE730B /* ESPTouchTaskParameter.m */; };
-		780500F026A581C500DE730B /* ESPTouchTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 7805008026A581C300DE730B /* ESPTouchTask.m */; };
-		780500F126A581C500DE730B /* ESPTouchTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 7805008226A581C300DE730B /* ESPTouchTask.h */; };
-		780500F226A581C500DE730B /* ESPTouchResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 7805008326A581C300DE730B /* ESPTouchResult.h */; };
-		780500F326A581C500DE730B /* ESPTouchDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 7805008426A581C300DE730B /* ESPTouchDelegate.h */; };
 		780500F426A581C500DE730B /* NetworkInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7805008626A581C400DE730B /* NetworkInfo.swift */; };
 		780500F526A581C500DE730B /* ConnectionMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7805008726A581C400DE730B /* ConnectionMode.swift */; };
 		780500F626A581C500DE730B /* MessageOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7805008826A581C400DE730B /* MessageOption.swift */; };
@@ -128,80 +57,9 @@
 		7805001B26A581C000DE730B /* storage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = storage.swift; sourceTree = "<group>"; };
 		7805002326A581C000DE730B /* ESPProvision.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESPProvision.swift; sourceTree = "<group>"; };
 		7805002426A581C100DE730B /* GatewayCommissioningManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GatewayCommissioningManager.swift; sourceTree = "<group>"; };
-		7805003026A581C200DE730B /* ESPTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPTools.m; sourceTree = "<group>"; };
-		7805003126A581C200DE730B /* ESP_NetUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESP_NetUtil.m; sourceTree = "<group>"; };
-		7805003226A581C200DE730B /* ESP_ByteUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESP_ByteUtil.m; sourceTree = "<group>"; };
-		7805003326A581C200DE730B /* ESP_WifiUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESP_WifiUtil.m; sourceTree = "<group>"; };
-		7805003426A581C200DE730B /* ESP_CRC8.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESP_CRC8.m; sourceTree = "<group>"; };
-		7805003526A581C200DE730B /* ESPVersionMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPVersionMacro.h; sourceTree = "<group>"; };
-		7805003626A581C200DE730B /* ESPAES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPAES.h; sourceTree = "<group>"; };
-		7805003726A581C200DE730B /* ESP_NetUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESP_NetUtil.h; sourceTree = "<group>"; };
-		7805003826A581C200DE730B /* ESP_ByteUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESP_ByteUtil.h; sourceTree = "<group>"; };
-		7805003926A581C200DE730B /* ESPTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPTools.h; sourceTree = "<group>"; };
-		7805003A26A581C200DE730B /* ESP_CRC8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESP_CRC8.h; sourceTree = "<group>"; };
-		7805003B26A581C200DE730B /* ESP_WifiUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESP_WifiUtil.h; sourceTree = "<group>"; };
-		7805003C26A581C200DE730B /* ESPAES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPAES.m; sourceTree = "<group>"; };
-		7805003E26A581C200DE730B /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
-		7805003F26A581C200DE730B /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
-		7805004026A581C200DE730B /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
-		7805004126A581C200DE730B /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
-		7805004226A581C200DE730B /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
-		7805004326A581C200DE730B /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
-		7805004426A581C200DE730B /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
-		7805004526A581C200DE730B /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
-		7805004626A581C200DE730B /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
-		7805004726A581C200DE730B /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
-		7805004826A581C200DE730B /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
-		7805004926A581C200DE730B /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
-		7805004A26A581C200DE730B /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFCompatibilityMacros.h; sourceTree = "<group>"; };
-		7805004B26A581C200DE730B /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
-		7805004E26A581C200DE730B /* Documentation.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Documentation.html; sourceTree = "<group>"; };
-		7805004F26A581C200DE730B /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
-		7805005026A581C200DE730B /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
-		7805005126A581C200DE730B /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
-		7805005226A581C200DE730B /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
-		7805005326A581C200DE730B /* CocoaAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaAsyncSocket.h; sourceTree = "<group>"; };
-		7805005626A581C200DE730B /* DDTTYLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTTYLogger.m; sourceTree = "<group>"; };
-		7805005726A581C200DE730B /* DDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLog.h; sourceTree = "<group>"; };
-		7805005826A581C200DE730B /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
-		7805005926A581C200DE730B /* DDASLLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDASLLogger.m; sourceTree = "<group>"; };
-		7805005A26A581C200DE730B /* DDFileLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDFileLogger.h; sourceTree = "<group>"; };
-		7805005C26A581C200DE730B /* DDContextFilterLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDContextFilterLogFormatter.m; sourceTree = "<group>"; };
-		7805005D26A581C200DE730B /* DDDispatchQueueLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDDispatchQueueLogFormatter.m; sourceTree = "<group>"; };
-		7805005E26A581C200DE730B /* DDMultiFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMultiFormatter.h; sourceTree = "<group>"; };
-		7805005F26A581C200DE730B /* DDContextFilterLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDContextFilterLogFormatter.h; sourceTree = "<group>"; };
-		7805006026A581C200DE730B /* DDMultiFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMultiFormatter.m; sourceTree = "<group>"; };
-		7805006126A581C200DE730B /* DDDispatchQueueLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDDispatchQueueLogFormatter.h; sourceTree = "<group>"; };
-		7805006226A581C200DE730B /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
-		7805006326A581C200DE730B /* DDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDLog.m; sourceTree = "<group>"; };
-		7805006426A581C200DE730B /* DDTTYLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTTYLogger.h; sourceTree = "<group>"; };
-		7805006526A581C200DE730B /* DDLog+LOGV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DDLog+LOGV.h"; sourceTree = "<group>"; };
-		7805006626A581C200DE730B /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
-		7805006726A581C200DE730B /* DDFileLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDFileLogger.m; sourceTree = "<group>"; };
-		7805006826A581C200DE730B /* DDASLLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDASLLogger.h; sourceTree = "<group>"; };
 		7805006926A581C200DE730B /* ESPProvisionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESPProvisionManager.swift; sourceTree = "<group>"; };
 		7805006A26A581C300DE730B /* ESPSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESPSession.swift; sourceTree = "<group>"; };
 		7805006B26A581C300DE730B /* ESPDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESPDevice.swift; sourceTree = "<group>"; };
-		7805006E26A581C300DE730B /* ESPUDPSocketClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPUDPSocketClient.h; sourceTree = "<group>"; };
-		7805006F26A581C300DE730B /* ESPUDPSocketServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPUDPSocketServer.m; sourceTree = "<group>"; };
-		7805007026A581C300DE730B /* ESPUDPSocketClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPUDPSocketClient.m; sourceTree = "<group>"; };
-		7805007126A581C300DE730B /* ESPUDPSocketServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPUDPSocketServer.h; sourceTree = "<group>"; };
-		7805007326A581C300DE730B /* ESPGuideCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPGuideCode.m; sourceTree = "<group>"; };
-		7805007426A581C300DE730B /* ESPTouchGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPTouchGenerator.m; sourceTree = "<group>"; };
-		7805007526A581C300DE730B /* ESPDataCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPDataCode.h; sourceTree = "<group>"; };
-		7805007626A581C300DE730B /* ESPDatumCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPDatumCode.h; sourceTree = "<group>"; };
-		7805007726A581C300DE730B /* ESPGuideCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPGuideCode.h; sourceTree = "<group>"; };
-		7805007826A581C300DE730B /* ESPDataCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPDataCode.m; sourceTree = "<group>"; };
-		7805007926A581C300DE730B /* ESPTouchGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPTouchGenerator.h; sourceTree = "<group>"; };
-		7805007A26A581C300DE730B /* ESPDatumCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPDatumCode.m; sourceTree = "<group>"; };
-		7805007B26A581C300DE730B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		7805007D26A581C300DE730B /* ESPTouchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPTouchResult.m; sourceTree = "<group>"; };
-		7805007E26A581C300DE730B /* ESPTouchTaskParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPTouchTaskParameter.h; sourceTree = "<group>"; };
-		7805007F26A581C300DE730B /* ESPTouchTaskParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPTouchTaskParameter.m; sourceTree = "<group>"; };
-		7805008026A581C300DE730B /* ESPTouchTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPTouchTask.m; sourceTree = "<group>"; };
-		7805008226A581C300DE730B /* ESPTouchTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPTouchTask.h; sourceTree = "<group>"; };
-		7805008326A581C300DE730B /* ESPTouchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPTouchResult.h; sourceTree = "<group>"; };
-		7805008426A581C300DE730B /* ESPTouchDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPTouchDelegate.h; sourceTree = "<group>"; };
 		7805008626A581C400DE730B /* NetworkInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkInfo.swift; sourceTree = "<group>"; };
 		7805008726A581C400DE730B /* ConnectionMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionMode.swift; sourceTree = "<group>"; };
 		7805008826A581C400DE730B /* MessageOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageOption.swift; sourceTree = "<group>"; };
@@ -281,12 +139,10 @@
 				7805015226A584FB00DE730B /* Proto */,
 				7805014E26A584FA00DE730B /* Transport */,
 				7805015A26A584FC00DE730B /* Utility */,
-				7805002E26A581C200DE730B /* Common */,
 				7805006B26A581C300DE730B /* ESPDevice.swift */,
 				7805002326A581C000DE730B /* ESPProvision.swift */,
 				7805006926A581C200DE730B /* ESPProvisionManager.swift */,
 				7805006A26A581C300DE730B /* ESPSession.swift */,
-				7805006C26A581C300DE730B /* ESPTouch */,
 				7805009926A581C500DE730B /* ESPWiFiManager.swift */,
 				7805002426A581C100DE730B /* GatewayCommissioningManager.swift */,
 				7805008526A581C400DE730B /* NetworkConfig */,
@@ -303,179 +159,6 @@
 				7805001B26A581C000DE730B /* storage.swift */,
 			);
 			path = Storage;
-			sourceTree = "<group>";
-		};
-		7805002E26A581C200DE730B /* Common */ = {
-			isa = PBXGroup;
-			children = (
-				7805002F26A581C200DE730B /* ESPUtils */,
-				7805003D26A581C200DE730B /* AFNetworking */,
-				7805004C26A581C200DE730B /* CocoaAsyncSocket */,
-			);
-			path = Common;
-			sourceTree = "<group>";
-		};
-		7805002F26A581C200DE730B /* ESPUtils */ = {
-			isa = PBXGroup;
-			children = (
-				7805003026A581C200DE730B /* ESPTools.m */,
-				7805003126A581C200DE730B /* ESP_NetUtil.m */,
-				7805003226A581C200DE730B /* ESP_ByteUtil.m */,
-				7805003326A581C200DE730B /* ESP_WifiUtil.m */,
-				7805003426A581C200DE730B /* ESP_CRC8.m */,
-				7805003526A581C200DE730B /* ESPVersionMacro.h */,
-				7805003626A581C200DE730B /* ESPAES.h */,
-				7805003726A581C200DE730B /* ESP_NetUtil.h */,
-				7805003826A581C200DE730B /* ESP_ByteUtil.h */,
-				7805003926A581C200DE730B /* ESPTools.h */,
-				7805003A26A581C200DE730B /* ESP_CRC8.h */,
-				7805003B26A581C200DE730B /* ESP_WifiUtil.h */,
-				7805003C26A581C200DE730B /* ESPAES.m */,
-			);
-			path = ESPUtils;
-			sourceTree = "<group>";
-		};
-		7805003D26A581C200DE730B /* AFNetworking */ = {
-			isa = PBXGroup;
-			children = (
-				7805003E26A581C200DE730B /* AFSecurityPolicy.h */,
-				7805003F26A581C200DE730B /* AFNetworkReachabilityManager.h */,
-				7805004026A581C200DE730B /* AFURLSessionManager.h */,
-				7805004126A581C200DE730B /* AFURLRequestSerialization.h */,
-				7805004226A581C200DE730B /* AFURLResponseSerialization.m */,
-				7805004326A581C200DE730B /* AFHTTPSessionManager.m */,
-				7805004426A581C200DE730B /* AFURLResponseSerialization.h */,
-				7805004526A581C200DE730B /* AFURLSessionManager.m */,
-				7805004626A581C200DE730B /* AFURLRequestSerialization.m */,
-				7805004726A581C200DE730B /* AFNetworking.h */,
-				7805004826A581C200DE730B /* AFNetworkReachabilityManager.m */,
-				7805004926A581C200DE730B /* AFSecurityPolicy.m */,
-				7805004A26A581C200DE730B /* AFCompatibilityMacros.h */,
-				7805004B26A581C200DE730B /* AFHTTPSessionManager.h */,
-			);
-			path = AFNetworking;
-			sourceTree = "<group>";
-		};
-		7805004C26A581C200DE730B /* CocoaAsyncSocket */ = {
-			isa = PBXGroup;
-			children = (
-				7805004D26A581C200DE730B /* GCD */,
-				7805005326A581C200DE730B /* CocoaAsyncSocket.h */,
-				7805005426A581C200DE730B /* Vendor */,
-			);
-			path = CocoaAsyncSocket;
-			sourceTree = "<group>";
-		};
-		7805004D26A581C200DE730B /* GCD */ = {
-			isa = PBXGroup;
-			children = (
-				7805004E26A581C200DE730B /* Documentation.html */,
-				7805004F26A581C200DE730B /* GCDAsyncUdpSocket.m */,
-				7805005026A581C200DE730B /* GCDAsyncSocket.m */,
-				7805005126A581C200DE730B /* GCDAsyncUdpSocket.h */,
-				7805005226A581C200DE730B /* GCDAsyncSocket.h */,
-			);
-			path = GCD;
-			sourceTree = "<group>";
-		};
-		7805005426A581C200DE730B /* Vendor */ = {
-			isa = PBXGroup;
-			children = (
-				7805005526A581C200DE730B /* CocoaLumberjack */,
-			);
-			path = Vendor;
-			sourceTree = "<group>";
-		};
-		7805005526A581C200DE730B /* CocoaLumberjack */ = {
-			isa = PBXGroup;
-			children = (
-				7805005626A581C200DE730B /* DDTTYLogger.m */,
-				7805005726A581C200DE730B /* DDLog.h */,
-				7805005826A581C200DE730B /* DDAbstractDatabaseLogger.h */,
-				7805005926A581C200DE730B /* DDASLLogger.m */,
-				7805005A26A581C200DE730B /* DDFileLogger.h */,
-				7805005B26A581C200DE730B /* Extensions */,
-				7805006326A581C200DE730B /* DDLog.m */,
-				7805006426A581C200DE730B /* DDTTYLogger.h */,
-				7805006526A581C200DE730B /* DDLog+LOGV.h */,
-				7805006626A581C200DE730B /* DDAbstractDatabaseLogger.m */,
-				7805006726A581C200DE730B /* DDFileLogger.m */,
-				7805006826A581C200DE730B /* DDASLLogger.h */,
-			);
-			path = CocoaLumberjack;
-			sourceTree = "<group>";
-		};
-		7805005B26A581C200DE730B /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				7805005C26A581C200DE730B /* DDContextFilterLogFormatter.m */,
-				7805005D26A581C200DE730B /* DDDispatchQueueLogFormatter.m */,
-				7805005E26A581C200DE730B /* DDMultiFormatter.h */,
-				7805005F26A581C200DE730B /* DDContextFilterLogFormatter.h */,
-				7805006026A581C200DE730B /* DDMultiFormatter.m */,
-				7805006126A581C200DE730B /* DDDispatchQueueLogFormatter.h */,
-				7805006226A581C200DE730B /* README.txt */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		7805006C26A581C300DE730B /* ESPTouch */ = {
-			isa = PBXGroup;
-			children = (
-				7805006D26A581C300DE730B /* udp */,
-				7805007226A581C300DE730B /* protocol */,
-				7805007B26A581C300DE730B /* README.md */,
-				7805007C26A581C300DE730B /* task */,
-				7805008126A581C300DE730B /* esptouch */,
-			);
-			path = ESPTouch;
-			sourceTree = "<group>";
-		};
-		7805006D26A581C300DE730B /* udp */ = {
-			isa = PBXGroup;
-			children = (
-				7805006E26A581C300DE730B /* ESPUDPSocketClient.h */,
-				7805006F26A581C300DE730B /* ESPUDPSocketServer.m */,
-				7805007026A581C300DE730B /* ESPUDPSocketClient.m */,
-				7805007126A581C300DE730B /* ESPUDPSocketServer.h */,
-			);
-			path = udp;
-			sourceTree = "<group>";
-		};
-		7805007226A581C300DE730B /* protocol */ = {
-			isa = PBXGroup;
-			children = (
-				7805007326A581C300DE730B /* ESPGuideCode.m */,
-				7805007426A581C300DE730B /* ESPTouchGenerator.m */,
-				7805007526A581C300DE730B /* ESPDataCode.h */,
-				7805007626A581C300DE730B /* ESPDatumCode.h */,
-				7805007726A581C300DE730B /* ESPGuideCode.h */,
-				7805007826A581C300DE730B /* ESPDataCode.m */,
-				7805007926A581C300DE730B /* ESPTouchGenerator.h */,
-				7805007A26A581C300DE730B /* ESPDatumCode.m */,
-			);
-			path = protocol;
-			sourceTree = "<group>";
-		};
-		7805007C26A581C300DE730B /* task */ = {
-			isa = PBXGroup;
-			children = (
-				7805007D26A581C300DE730B /* ESPTouchResult.m */,
-				7805007E26A581C300DE730B /* ESPTouchTaskParameter.h */,
-				7805007F26A581C300DE730B /* ESPTouchTaskParameter.m */,
-				7805008026A581C300DE730B /* ESPTouchTask.m */,
-			);
-			path = task;
-			sourceTree = "<group>";
-		};
-		7805008126A581C300DE730B /* esptouch */ = {
-			isa = PBXGroup;
-			children = (
-				7805008226A581C300DE730B /* ESPTouchTask.h */,
-				7805008326A581C300DE730B /* ESPTouchResult.h */,
-				7805008426A581C300DE730B /* ESPTouchDelegate.h */,
-			);
-			path = esptouch;
 			sourceTree = "<group>";
 		};
 		7805008526A581C400DE730B /* NetworkConfig */ = {
@@ -567,45 +250,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				780500F126A581C500DE730B /* ESPTouchTask.h in Headers */,
 				7805017F26A584FD00DE730B /* AESDecryptor.h in Headers */,
-				780500C926A581C500DE730B /* GCDAsyncSocket.h in Headers */,
-				780500E626A581C500DE730B /* ESPDataCode.h in Headers */,
-				780500BA26A581C500DE730B /* AFURLRequestSerialization.h in Headers */,
-				780500B926A581C500DE730B /* AFURLSessionManager.h in Headers */,
 				7805000E26A57FD700DE730B /* NebulaeCommission.h in Headers */,
-				780500CF26A581C500DE730B /* DDFileLogger.h in Headers */,
-				780500C326A581C500DE730B /* AFCompatibilityMacros.h in Headers */,
-				780500CA26A581C500DE730B /* CocoaAsyncSocket.h in Headers */,
-				780500DC26A581C500DE730B /* DDASLLogger.h in Headers */,
-				780500D826A581C500DE730B /* DDTTYLogger.h in Headers */,
-				780500B726A581C500DE730B /* AFSecurityPolicy.h in Headers */,
-				780500E326A581C500DE730B /* ESPUDPSocketServer.h in Headers */,
-				780500CC26A581C500DE730B /* DDLog.h in Headers */,
-				780500AF26A581C500DE730B /* ESPVersionMacro.h in Headers */,
-				780500E826A581C500DE730B /* ESPGuideCode.h in Headers */,
-				780500F326A581C500DE730B /* ESPTouchDelegate.h in Headers */,
-				780500E726A581C500DE730B /* ESPDatumCode.h in Headers */,
-				780500D326A581C500DE730B /* DDContextFilterLogFormatter.h in Headers */,
-				780500B126A581C500DE730B /* ESP_NetUtil.h in Headers */,
-				780500F226A581C500DE730B /* ESPTouchResult.h in Headers */,
-				780500EA26A581C500DE730B /* ESPTouchGenerator.h in Headers */,
-				780500EE26A581C500DE730B /* ESPTouchTaskParameter.h in Headers */,
-				780500B526A581C500DE730B /* ESP_WifiUtil.h in Headers */,
-				780500D926A581C500DE730B /* DDLog+LOGV.h in Headers */,
-				780500B326A581C500DE730B /* ESPTools.h in Headers */,
-				780500B026A581C500DE730B /* ESPAES.h in Headers */,
-				780500E026A581C500DE730B /* ESPUDPSocketClient.h in Headers */,
-				780500B226A581C500DE730B /* ESP_ByteUtil.h in Headers */,
-				780500BD26A581C500DE730B /* AFURLResponseSerialization.h in Headers */,
-				780500D526A581C500DE730B /* DDDispatchQueueLogFormatter.h in Headers */,
-				780500C826A581C500DE730B /* GCDAsyncUdpSocket.h in Headers */,
-				780500C426A581C500DE730B /* AFHTTPSessionManager.h in Headers */,
-				780500B426A581C500DE730B /* ESP_CRC8.h in Headers */,
-				780500CD26A581C500DE730B /* DDAbstractDatabaseLogger.h in Headers */,
-				780500B826A581C500DE730B /* AFNetworkReachabilityManager.h in Headers */,
-				780500C026A581C500DE730B /* AFNetworking.h in Headers */,
-				780500D226A581C500DE730B /* DDMultiFormatter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -668,9 +314,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				780500EC26A581C500DE730B /* README.md in Resources */,
-				780500D626A581C500DE730B /* README.txt in Resources */,
-				780500C526A581C500DE730B /* Documentation.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -706,31 +349,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				780500E526A581C500DE730B /* ESPTouchGenerator.m in Sources */,
 				7805017326A584FD00DE730B /* wifi_constants.pb.swift in Sources */,
-				780500D726A581C500DE730B /* DDLog.m in Sources */,
-				780500ED26A581C500DE730B /* ESPTouchResult.m in Sources */,
 				7805017C26A584FD00DE730B /* CryptoAES.swift in Sources */,
-				780500D026A581C500DE730B /* DDContextFilterLogFormatter.m in Sources */,
-				780500D126A581C500DE730B /* DDDispatchQueueLogFormatter.m in Sources */,
 				780500A226A581C500DE730B /* GatewayCommissioningManager.swift in Sources */,
-				780500C626A581C500DE730B /* GCDAsyncUdpSocket.m in Sources */,
 				780500F826A581C500DE730B /* Eth0.swift in Sources */,
-				780500BB26A581C500DE730B /* AFURLResponseSerialization.m in Sources */,
 				780500DF26A581C500DE730B /* ESPDevice.swift in Sources */,
-				780500EB26A581C500DE730B /* ESPDatumCode.m in Sources */,
 				780500A126A581C500DE730B /* ESPProvision.swift in Sources */,
-				780500CE26A581C500DE730B /* DDASLLogger.m in Sources */,
-				780500EF26A581C500DE730B /* ESPTouchTaskParameter.m in Sources */,
-				780500DA26A581C500DE730B /* DDAbstractDatabaseLogger.m in Sources */,
 				7805017A26A584FD00DE730B /* ESPSecurity1.swift in Sources */,
-				780500BE26A581C500DE730B /* AFURLSessionManager.m in Sources */,
 				7805017E26A584FD00DE730B /* ESPCodeable.swift in Sources */,
-				780500F026A581C500DE730B /* ESPTouchTask.m in Sources */,
 				7805017226A584FD00DE730B /* session.pb.swift in Sources */,
-				780500C226A581C500DE730B /* AFSecurityPolicy.m in Sources */,
-				780500AD26A581C500DE730B /* ESP_WifiUtil.m in Sources */,
-				780500AB26A581C500DE730B /* ESP_NetUtil.m in Sources */,
 				7805017026A584FD00DE730B /* wifi_scan.pb.swift in Sources */,
 				7805018026A584FD00DE730B /* ESPWifiNetwork.swift in Sources */,
 				780500F726A581C500DE730B /* Wlan0.swift in Sources */,
@@ -739,19 +366,9 @@
 				7805017B26A584FD00DE730B /* AESDecryptor.m in Sources */,
 				7805017426A584FD00DE730B /* ESPLogging.swift in Sources */,
 				780500DD26A581C500DE730B /* ESPProvisionManager.swift in Sources */,
-				780500C126A581C500DE730B /* AFNetworkReachabilityManager.m in Sources */,
-				780500C726A581C500DE730B /* GCDAsyncSocket.m in Sources */,
 				7805017126A584FD00DE730B /* constants.pb.swift in Sources */,
 				780500F426A581C500DE730B /* NetworkInfo.swift in Sources */,
-				780500BC26A581C500DE730B /* AFHTTPSessionManager.m in Sources */,
-				780500AE26A581C500DE730B /* ESP_CRC8.m in Sources */,
-				780500DB26A581C500DE730B /* DDFileLogger.m in Sources */,
-				780500E126A581C500DE730B /* ESPUDPSocketServer.m in Sources */,
-				780500CB26A581C500DE730B /* DDTTYLogger.m in Sources */,
 				780500FA26A581C500DE730B /* NetworkConfiguration.swift in Sources */,
-				780500BF26A581C500DE730B /* AFURLRequestSerialization.m in Sources */,
-				780500E226A581C500DE730B /* ESPUDPSocketClient.m in Sources */,
-				780500AC26A581C500DE730B /* ESP_ByteUtil.m in Sources */,
 				780500F626A581C500DE730B /* MessageOption.swift in Sources */,
 				7805009A26A581C500DE730B /* storage.swift in Sources */,
 				7805017726A584FD00DE730B /* ESPConstants.swift in Sources */,
@@ -759,16 +376,11 @@
 				7805016B26A584FD00DE730B /* ESPCommunicable.swift in Sources */,
 				7805016C26A584FD00DE730B /* ESPSoftAPTransport.swift in Sources */,
 				7805017826A584FD00DE730B /* ESPErrors.swift in Sources */,
-				780500E426A581C500DE730B /* ESPGuideCode.m in Sources */,
 				7805017626A584FD00DE730B /* HexUtils.swift in Sources */,
 				780500F526A581C500DE730B /* ConnectionMode.swift in Sources */,
 				7805016A26A584FD00DE730B /* ESPBleTransport.swift in Sources */,
 				7805017926A584FD00DE730B /* ESPUtility.swift in Sources */,
 				7805010526A581C500DE730B /* ESPWiFiManager.swift in Sources */,
-				780500D426A581C500DE730B /* DDMultiFormatter.m in Sources */,
-				780500E926A581C500DE730B /* ESPDataCode.m in Sources */,
-				780500B626A581C500DE730B /* ESPAES.m in Sources */,
-				780500AA26A581C500DE730B /* ESPTools.m in Sources */,
 				7805016D26A584FD00DE730B /* sec1.pb.swift in Sources */,
 				7805017D26A584FD00DE730B /* ESPSecurity0.swift in Sources */,
 				780500DE26A581C500DE730B /* ESPSession.swift in Sources */,

@@ -8,7 +8,7 @@
 #import <Foundation/Foundation.h>
 #import <CommonCrypto/CommonDigest.h>
 #import "AESDecryptor.h"
-#import "GCDAsyncSocket.h"
+
 //! Project version number for NebulaeCommission.
 FOUNDATION_EXPORT double NebulaeCommissionVersionNumber;
 
