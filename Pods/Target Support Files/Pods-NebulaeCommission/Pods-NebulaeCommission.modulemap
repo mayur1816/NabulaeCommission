@@ -1,0 +1,6 @@
+framework module Pods_NebulaeCommission {
+  umbrella header "Pods-NebulaeCommission-umbrella.h"
+
+  export *
+  module * { export * }
+}

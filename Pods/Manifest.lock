@@ -1,0 +1,20 @@
+PODS:
+  - Curve25519 (1.1)
+  - SwiftProtobuf (1.17.0)
+
+DEPENDENCIES:
+  - Curve25519 (~> 1.1.0)
+  - SwiftProtobuf (~> 1.0)
+
+SPEC REPOS:
+  trunk:
+    - Curve25519
+    - SwiftProtobuf
+
+SPEC CHECKSUMS:
+  Curve25519: 5f595e906bd962248665978e2992a1fe96e2d831
+  SwiftProtobuf: 9c85136c6ba74b0a1b84279dbf0f6db8efb714e0
+
+PODFILE CHECKSUM: ec2a147c39a676d52aed98771c9935d47e042695
+
+COCOAPODS: 1.8.4
