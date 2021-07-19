@@ -43,7 +43,7 @@
 		780500C626A581C500DE730B /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 7805004F26A581C200DE730B /* GCDAsyncUdpSocket.m */; };
 		780500C726A581C500DE730B /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 7805005026A581C200DE730B /* GCDAsyncSocket.m */; };
 		780500C826A581C500DE730B /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 7805005126A581C200DE730B /* GCDAsyncUdpSocket.h */; };
-		780500C926A581C500DE730B /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 7805005226A581C200DE730B /* GCDAsyncSocket.h */; };
+		780500C926A581C500DE730B /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 7805005226A581C200DE730B /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		780500CA26A581C500DE730B /* CocoaAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 7805005326A581C200DE730B /* CocoaAsyncSocket.h */; };
 		780500CB26A581C500DE730B /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 7805005626A581C200DE730B /* DDTTYLogger.m */; };
 		780500CC26A581C500DE730B /* DDLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 7805005726A581C200DE730B /* DDLog.h */; };
@@ -569,6 +569,7 @@
 			files = (
 				780500F126A581C500DE730B /* ESPTouchTask.h in Headers */,
 				7805017F26A584FD00DE730B /* AESDecryptor.h in Headers */,
+				780500C926A581C500DE730B /* GCDAsyncSocket.h in Headers */,
 				780500E626A581C500DE730B /* ESPDataCode.h in Headers */,
 				780500BA26A581C500DE730B /* AFURLRequestSerialization.h in Headers */,
 				780500B926A581C500DE730B /* AFURLSessionManager.h in Headers */,
@@ -583,7 +584,6 @@
 				780500CC26A581C500DE730B /* DDLog.h in Headers */,
 				780500AF26A581C500DE730B /* ESPVersionMacro.h in Headers */,
 				780500E826A581C500DE730B /* ESPGuideCode.h in Headers */,
-				780500C926A581C500DE730B /* GCDAsyncSocket.h in Headers */,
 				780500F326A581C500DE730B /* ESPTouchDelegate.h in Headers */,
 				780500E726A581C500DE730B /* ESPDatumCode.h in Headers */,
 				780500D326A581C500DE730B /* DDContextFilterLogFormatter.h in Headers */,
@@ -906,14 +906,15 @@
 			baseConfigurationReference = 091CA76351503EEC8E1002A7 /* Pods-NebulaeCommission.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = J42XN9RRS2;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = NebulaeCommission/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -921,6 +922,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sls.NebulaeCommission;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -933,14 +936,15 @@
 			baseConfigurationReference = A7FEC9BE759BD98EB6716444 /* Pods-NebulaeCommission.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = J42XN9RRS2;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = NebulaeCommission/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -948,6 +952,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sls.NebulaeCommission;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
